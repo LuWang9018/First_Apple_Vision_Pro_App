@@ -19,6 +19,14 @@ struct ContentView: View {
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
+        VStack {
+            Button("Fetch Random GIF"){
+                
+            }
+            .background(Color.black)
+            .foregroundColor(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+        }
         RealityView { content in
             // Add the initial RealityKit content
             if let scene = try? await Entity(named: "Scene", in: realityKitContentBundle) {
