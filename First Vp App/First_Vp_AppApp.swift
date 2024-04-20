@@ -12,7 +12,7 @@ struct First_Vp_AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }.windowStyle(.volumetric)
+        }.defaultSize(width: 100, height: 100)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()

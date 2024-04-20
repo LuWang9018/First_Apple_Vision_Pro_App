@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84322E852BD2239400AA864A /* dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 84322E842BD2239400AA864A /* dice.usdz */; };
 		845D9A382BD0A5F100672F9A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 845D9A372BD0A5F100672F9A /* RealityKitContent */; };
 		845D9A3A2BD0A5F100672F9A /* First_Vp_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A392BD0A5F100672F9A /* First_Vp_AppApp.swift */; };
 		845D9A3C2BD0A5F100672F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A3B2BD0A5F100672F9A /* ContentView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84322E842BD2239400AA864A /* dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = dice.usdz; path = ../../../Downloads/assets/dice.usdz; sourceTree = "<group>"; };
 		845D9A322BD0A5F100672F9A /* First Vp App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Vp App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D9A362BD0A5F100672F9A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		845D9A392BD0A5F100672F9A /* First_Vp_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Vp_AppApp.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				845D9A392BD0A5F100672F9A /* First_Vp_AppApp.swift */,
 				845D9A3B2BD0A5F100672F9A /* ContentView.swift */,
 				845D9A3D2BD0A5F100672F9A /* ImmersiveView.swift */,
+				84322E842BD2239400AA864A /* dice.usdz */,
 				845D9A3F2BD0A5F200672F9A /* Assets.xcassets */,
 				845D9A442BD0A5F200672F9A /* Info.plist */,
 				845D9A412BD0A5F200672F9A /* Preview Content */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845D9A432BD0A5F200672F9A /* Preview Assets.xcassets in Resources */,
+				84322E852BD2239400AA864A /* dice.usdz in Resources */,
 				845D9A402BD0A5F200672F9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
